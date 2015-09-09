@@ -1,7 +1,9 @@
 #+TITLE: Data Lab: Manipulating Bits
-#+DATE: Assigned Sep. 8, Due Sep. 25, 11:59 PM
 
 * Introduction
+
+*Assigned*: Sep. 8
+*Due*: Sep. 25, 11:59 PM
 
 Note: Keshav Kini ([[mailto:krkini@utexas.edu][krkini@utexas.edu]]) is the lead TA for this lab
 assignment.
