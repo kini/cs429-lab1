@@ -1,0 +1,131 @@
+#+TITLE: Data Lab: Manipulating Bits
+#+DATE: Assigned Sep. 8, Due Sep. 25, 11:59 PM
+
+* Introduction
+
+Note: Keshav Kini ([[mailto:krkini@utexas.edu][krkini@utexas.edu]]) is the lead TA for this lab
+assignment.
+
+The purpose of this assignment is to become more familiar with
+bit-level representations of integers and floating point numbers.
+You'll do this by solving a series of programming "puzzles".  Many of
+these puzzles are quite artificial, but you'll find yourself thinking
+much more about bits while you work your way through them.
+
+* Logistics
+
+This is an *individual* project.  You may *not* share your work on lab
+assignments with other students, but do feel free to ask instructors
+for help if you are stuck, for example during office hours or a
+discussion section.
+
+You will turn in your completed [[bits.c]] file on Canvas when you are
+done.
+
+Any clarifications and corrections for this lab will be posted on
+Canvas and Piazza, and if necessary, fixes will be committed to the
+Lab 1 materials repository.
+
+* Instructions
+
+** Setup
+
+Start by cloning the lab materials from
+[[https://github.com/kini/cs429-lab1]] into a directory using Git (as you
+did in Lab 0).  A sample command is:
+
+#+BEGIN_SRC sh
+  git clone https://github.com/kini/cs429-lab1 ~/classes/cs429/lab1
+  cd ~/classes/cs429/lab1
+#+END_SRC
+
+If you are working on the CS lab machines, make sure that the
+directory you're working in is not readable by other users, since your
+work must not be shared with others.  If you're not sure how to do
+this, look up info on the ~chmod~ command in Linux.  If you're using
+your own private machine or virtual machine, you don't need to worry
+about this.
+
+** The Lab Assignment
+
+In the repository you have cloned, you will see many files (including
+this one).  You should read this file and the README of course, but
+the only file you will be modifying and turning in is [[bits.c]].
+
+The bits.c file contains skeletons for 21 different programming
+puzzles.  Your task for each puzzle is to try to implement the
+specified function while conforming to the constraints imposed upon
+you.
+
+Most of the puzzles involve some implementing some integer operations.
+In these puzzles, you will be restricted to a certain set of
+operations that you are allowed to use for each puzzle, and each
+puzzle will also have a maximum number of operations you are allowed
+to use.
+
+Some of the puzzles involve manipulating floating point bit patterns.
+These puzzles have less restrictions, but will still have a maximum
+operator count.
+
+Each puzzle is worth a number of points between 1 and 4, indicating
+its difficulty (1 is the easiest and 4 is the hardest, obviously).
+You will earn these points by correctly implementing the function
+required.  Furthermore, each puzzle has two further points that can be
+earned by managing to stay within the limited number of operations
+allowed.
+
+There are three 1-point problems, five 2-point problems, seven 3-point
+problems, and six 4-point problems.  That's a total of 58 points for
+"correctness"; the two further "performance" points for each one of
+the 21 problems sums up to 42 more points.  So in total, the lab is
+worth 100 points.
+
+Many students will find the 4-point problems *very difficult*.  Please
+make sure to start the lab as soon as possible to make sure you don't
+get overwhelmed by it at the last minute!
+
+For the exact details, make sure to read the comments in [[bits.c]] very
+carefully.  Everything should be fully explained there.  If you're
+unsure about any of the requirements, please ask a question on Piazza.
+
+Note that this lab comes with a grading script.  This is the same
+grading script that I will be using to grade your assignments, so you
+will be able to know what your grade will be before you submit your
+assignment.  Make use of this tool to check your work!  The grader can
+be a little finicky at times.  If you think your code deserves more
+points than what it is giving you, drop me a line and I'll see if I
+can figure out what's going on.
+
+The grading script can be invoked as follows:
+
+#+BEGIN_SRC sh
+  ./driver.pl -u "insert a name here"
+#+END_SRC
+
+This will not only show you your grade so far, but will also upload
+your current scores to an *online scoreboard*, which you can see at
+[[http://52.8.245.166:42901/]] (weird URL, I know).  Feel free to use a
+pseudonym if you don't want other people to know what your score is.
+Note that participating in the online scoreboard is optional, of
+course!  It's just for fun.
+
+There are some other tools in the repository as well, which you may
+find useful as you work.  These are described in the [[README]] file.
+
+*tl;dr: read the comments in bits.c and read the README.*
+
+* Getting help
+
+As mentioned before, you are not allowed to collaborate with other
+students on this lab (or other labs in this class).  However, that
+certainly doesn't mean you can't ask clarifying questions about the
+lab.  Please use Piazza freely if you don't understand what the
+questions are asking.  Just try not to give away the answers to any of
+the problems!
+
+If you want to ask a question but are not sure whether it counts as
+"giving away answers", then simply make the Piazza post a private
+question visible only to instructors.  If we judge it to be safe, we
+can make it public to help other students.
+
+Good luck!
