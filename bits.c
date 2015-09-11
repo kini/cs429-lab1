@@ -127,7 +127,7 @@ NOTES:
  *      to the coding rules.
  *   2. Use the BDD checker to formally verify that your solutions produce
  *      the correct answers.
- */
+ */;
 
 
 #endif
